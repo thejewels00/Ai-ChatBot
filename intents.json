@@ -1,0 +1,227 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "salam"],
+            "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+        
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What's your name?",
+                "What are you called?",
+                "Do you have a name?",
+                "Who are you?"
+            ],
+            "responses": [
+                "I'm a bot. I don't have a name.",
+                "I'm a bot. Just call me a bot.",
+                "I'm a bot. I don't have a name. What's yours?"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like today?",
+                "How's the weather?",
+                "Is it going to rain today?",
+                "What's the weather forecast?",
+                "What's the temperature today?"
+            ],
+            "responses": [
+                "I'm a bot. I don't have the ability to check the weather.",
+                "I'm a bot. I don't have the ability to check the weather. You can check it on your phone or computer."
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "What's the time?",
+                "What time is it?",
+                "Do you know the time?",
+                "Can you tell me the time?"
+            ],
+            "responses": [
+                "I'm a bot. I don't have the ability to check the time.",
+                "I'm a bot. I don't have the ability to check the time. You can check it on your phone or computer."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Can you help me?",
+                "I need help",
+                "I need some assistance",
+                "Can you assist me?",
+                "Can you help me with something?"
+            ],
+            "responses": [
+                "I'm here to help!",
+                "I'm here to help. What do you need help with?",
+                "I'm here to help. What do you need help with?"
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "What's the latest news?",
+                "What's happening in the world?",
+                "What's going on in the news?",
+                "Can you tell me the news?",
+                "Can you give me the latest news?"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "music",
+            "patterns": [
+                "Play some music",
+                "Can you play some music?",
+                "I want to listen to music",
+                "Can you recommend some music?",
+                "Can you play a song for me?"
+            ],
+            "responses": [
+                "I'm a bot. I don't have the ability to play music.",
+                "I'm a bot. I don't have the ability to play music. You can play music on your phone or computer.",
+                "..."
+            ]
+        },
+        {
+            "tag": "movies",
+            "patterns": [
+                "What's a good movie to watch?",
+                "Can you recommend a movie?",
+                "I want to watch a movie",
+                "What's a popular movie right now?",
+                "Can you suggest a movie for me?"
+            ],
+            "responses": [
+                "you can watch Harry potter or mulan if you like fantasy.",
+                "I'm a bot. I don't have the ability to recommend movies. You can check movie reviews online."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                
+                "you are dumb",
+                
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by Jawaher chennak."
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you","when were you made","what is your age"
+            ],
+            "responses": [
+                "I was made in 2025, if that's what you are asking!"
+            ]
+        }
+
+    ]
+}
